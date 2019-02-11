@@ -1,0 +1,90 @@
+.container {
+    background-color: #504746; 
+    width: auto;
+    position: relative;
+}
+
+.navbar {
+    background-color: #FBF4F3;
+}
+
+.logo {
+    width: 30%;
+    padding-left: 7%;
+}
+
+/* FONTS  */
+
+.pmnblk {
+    font-family: caecilia-sans-text, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.pmnbd {
+    font-family: caecilia-sans-text, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pmnreg {
+    font-family: caecilia-sans-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#dg {
+    color: #3E5641;
+}
+
+#brown {
+    color: #504746;
+}
+
+.hero {
+    width: 100%;
+}
+
+.image {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+.content {
+    padding-left: 10%;
+}
+
+.center {
+    justify-content: center;
+}
+
+.htop {
+    padding-top: 5%;
+    font-size: 4vh;
+    text-align: left;
+    padding-left: 20%;
+}
+
+.ptop {
+    font-size: 2vh;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.highlightl {
+    font-size: 2.3vh;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 30%;
+}
+
+.highlightr {
+    font-size: 2.3vh;
+    text-align: right;
+    padding-left: 30%;
+    padding-right: 20%;
+}
