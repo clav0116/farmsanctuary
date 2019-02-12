@@ -1,11 +1,11 @@
 .container {
     background-color: #504746; 
-    width: auto;
-    position: relative;
+    min-width: 100%
 }
 
 .navbar {
     background-color: #FBF4F3;
+    width: 100%;
 }
 
 .logo {
@@ -33,12 +33,36 @@
     font-style: normal;
 }
 
+.whitman {
+    font-family: whitman-display, serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* COLORS  */
+
 #dg {
     color: #3E5641;
 }
 
+#lg {
+    color: #9BC995; 
+}
+
 #brown {
     color: #504746;
+}
+
+#white {
+    color: white; 
+}
+
+#whte {
+    background-color: white;
+}
+
+#orange {
+    color: #DE8233; 
 }
 
 .hero {
@@ -58,7 +82,16 @@
 }
 
 .center {
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+.ctr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .htop {
@@ -87,4 +120,52 @@
     text-align: right;
     padding-left: 30%;
     padding-right: 20%;
+}
+
+/* BUTTONS */
+
+.lm {
+    background-color: #DE8233;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    width: 15vw;
+}
+
+.gi1 {
+    background-color: #FBF4F3; 
+    border: 2px solid #DE8233;
+    border-radius: 10px;
+    height: 5vh;
+    width: 15vw;
+}
+
+.gi2 {
+    border: 2px; 
+    border-radius: 10px;
+    border: 2px solid #DE8233;
+    height: 5vh;
+    width: 15vw;
+}
+
+form {
+    float: right;
+    padding: 2%;
+}
+
+#imgDisplay {
+    position: relative;
+}
+
+#farmInfo {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    width: 33%;
+    padding: 3em;
+    background-color: rgba(80, 71, 70, .8);
+}
+
+ .footer{
+    display: flex;
 }
